@@ -1,24 +1,21 @@
-.button a:hover {
+.button:hover {
   color: #03a9f4;
 }
-.button a {
-  color: #626262;
-  text-decoration: none;
 
-}
 .button {
+  display: inline-block;
   width: 165px;
   height: 60px;
   font-family: "Playfair Display", serif;
   font-size: 20px;
-  font-weight: 24px;
+  /*font-weight: 24px;*/
   background-color: #ffffff;
   border-color: #626262;
   border-width: 1px;
   /*color: #626262;*/
 
 }
-.footer {
+.div-button {
   text-align: center;
   padding-bottom: 50px;
   /*margin-bottom: 50px;*/
@@ -85,8 +82,8 @@ h1 {
 }
 .main-block {
   /*width: 1200px;*/
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  /*margin-block-start: 0px;
+  margin-block-end: 0px;*/
   padding: 0px;
   font-size: 0px;
   /*padding: 100px 0px 10px 150px;*/
@@ -138,8 +135,8 @@ body {
   font-family: "Playfair Display", serif;
   margin: 0px;
   /*width: 1200px;*/
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  /*margin-block-start: 0px;
+  margin-block-end: 0px;*/
 }
 /** {
   outline: 1px solid red;
