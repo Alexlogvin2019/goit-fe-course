@@ -45,6 +45,30 @@ footer {
   line-height: 41px;
   padding-left: 20px;
 }
+.facebook {
+    background-color: #fce38a;
+    background-repeat: no-repeat;
+    background-position: center;
+  background-image: url(https://i.ibb.co/ZTvtzzH/facebook.png);
+}
+.twitter {
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center;
+background-image: url(https://i.ibb.co/5KzSqFx/twitter.png);
+}
+.pinterest {
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center;
+background-image: url(https://i.ibb.co/6RV88PL/pinterest.png);
+}
+.instagram {
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center;
+background-image: url(https://i.ibb.co/ZKTstxd/instagram.png);
+}
 
 .icon a {
   width: 58px;
@@ -54,11 +78,17 @@ footer {
   border: 1px;
   border-color: #f9bd87;
   align-items: center;
-  background-color: #fce38a;
   opacity: 0;
   transition-property: opacity;
 }
-.icon a:hover {
+.facebook:hover {
+  background-color: #95e1d3;
+}
+.instagram:hover {
+  background-color: #95e1d3;
+}.pinterest:hover {
+  background-color: #95e1d3;
+}.twitter:hover {
   background-color: #95e1d3;
 }
 .icons {
@@ -90,8 +120,8 @@ footer {
   transition-timing-function: linear;
 }
 .ts-li:hover .icons {
-  transition-property: transform, opacity;
-  transform: translate(-12px, -12px);
+  transition-property: opacity;
+  /*transform: translate(-12px, -12px);*/
   transition-duration: 200ms;
   transition-timing-function: linear;
   opacity: 0.9;
@@ -102,14 +132,19 @@ footer {
   transition-timing-function: linear;
   opacity: 1;
 }
-
+.div-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .div-img {
-  position: absolute;
+  /*position: absolute;*/
+  display: block;
   background-color: #95e1d3;
-  width: 380px;
-  height: 470px;
-  top: 0%;
-  z-index: 5;
+  /*width: 100%;
+  height: auto;*/
+  /*top: 0%;*/
+  /*z-index: 5;*/
   transition-property: left, top;
 }
 
@@ -177,10 +212,60 @@ footer {
   display: flex;
   flex-grow: 1;
   width: 380px;
-  height: 70px;
+  /*height: 70px;*/
   margin-right: 20px;
   margin-bottom: 95px;
 }
+.li-photo::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  padding: 0px 20px 0px 22px;
+  background-image: url(https://i.ibb.co/VJrFXFt/photo.png);
+}
+.li-web::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  padding: 0px 20px 0px 22px;
+  background-image: url(https://i.ibb.co/k66M0MQ/web.png);
+}
+.li-creat::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  padding: 0px 20px 0px 22px;
+  background-image: url(https://i.ibb.co/6HvLbM3/creat.png);
+}
+.li-seo::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  padding: 0px 20px 0px 22px;
+  background-image: url(https://i.ibb.co/VMg837X/seo.png);
+}
+.li-css::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  padding: 0px 20px 0px 22px;
+  background-image: url(https://i.ibb.co/mvsp70r/css.png);
+}
+.li-digital::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  padding: 0px 20px 0px 22px;
+  background-image: url(https://i.ibb.co/mzF5ygt/digital.png);
+}
+
+*/
 .amazing-li:nth-child(3n) {
   margin-right: 0px;
 }
@@ -195,16 +280,19 @@ footer {
   flex-wrap: wrap;
   padding-bottom: 95px;
 }
-.amazing-li img {
+/*.amazing-li img {
   display: flex;
   width: 32px;
   height: 32px;
   padding: 0px 30px 0px 22px;
   align-items: flex-start;
-}
+}*/
 .team-section-h2-main {
   margin: 0px;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 53px;
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
@@ -225,6 +313,9 @@ footer {
 }
 .team-section-h2-top {
   margin: 0px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   padding-bottom: 25px;
   font-size: 24px;
   font-family: "Kaushan Script", cursive;
@@ -234,11 +325,16 @@ footer {
 }
 .team-section-h2 {
   margin: 0px;
+  position: relative;
+  height: 133px;
   padding-bottom: 85px;
 }
 .amazing-section-h2-main {
-  margin: 0px;
-  position: relative;
+  /*margin: 0px;*/
+  position: absolute;
+  left: 50%;
+  top: 53px;
+  transform: translateX(-50%);
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
@@ -258,8 +354,11 @@ footer {
   height: 3px;
 }
 .amazing-section-h2-top {
-  margin: 0px;
-  padding-bottom: 25px;
+  /*margin: 0px;*/
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /*padding-bottom: 25px;*/
   font-size: 24px;
   font-family: "Kaushan Script", cursive;
   font-style: italic;
@@ -267,6 +366,8 @@ footer {
   text-align: center;
 }
 .amazing-section-h2 {
+  position: relative;
+height: 133px;
   margin: 0px;
   padding-bottom: 100px;
 }
@@ -333,7 +434,7 @@ h1 {
   content: "";
   clear: both;
 }
-body {
+.wrapper {
   /*margin: 0px;*/
   padding: 0px;
   margin: auto;
