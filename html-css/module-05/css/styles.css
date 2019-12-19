@@ -72,6 +72,12 @@ h2::after {
   margin-top: 10px;
 
 }
+.big-icon:hover {
+
+  background-color: #1abc9c;
+
+
+}
 
 .big-icon img {
   position: absolute;
