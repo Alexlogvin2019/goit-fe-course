@@ -11,7 +11,8 @@
   color: #45b6a1;
 }
 .footer {
-  width: 1600px;
+  margin: 0 auto;
+  width: 100%;
   height: 90px;
   background-color: #323232;
 }
@@ -73,9 +74,7 @@ h2::after {
 
 }
 .big-icon:hover {
-
   background-color: #1abc9c;
-
 
 }
 
@@ -204,11 +203,12 @@ h2::after {
   font-size: 0px;
 }
 .next {
-  right: 245px;
+  right: -115px;
   background-image: url(https://i.ibb.co/qmJmwb5/next.png);
 }
 .prev {
-  left: 245px;
+  left: -115px;
+  /*right: 300px;*/
   background-image: url(https://i.ibb.co/k9C4CN7/prev.png);
   
 }
@@ -216,27 +216,31 @@ h2::after {
   position: absolute;
 }
 */
+
 .slider-button {
   background-color: rgb(78, 198, 171);
   opacity: 0.651;
   position: absolute;
   width: 104px;
   height: 104px;
-  top: 227px;
+  top: 20px;
+  z-index: 20;
   background-position: center;
   background-repeat: no-repeat;
 }
 .slider-text {
   margin: 0px;
-  padding: 0px;
+  padding-top: 20px;
   font-size: 24px;
   font-weight: 200;
   font-family: "Roboto";
   color: #ffffff;
   text-transform: uppercase;
   position: absolute;
-  left: 418px;
-  top: 298px;
+  /*left: 21%;
+  top: 298px;*/
+  z-index: 20;
+  width: 485px;
 }
 .slider-name {
   margin: 0px;
@@ -250,34 +254,52 @@ h2::after {
   left: 50%;
   transform: translateX(-50%);
   top: 200px;
+  z-index: 20;
+  width: 780px;
 }
 
-.slider-img::before {
+.slider::before {
   content: "";
   display: block;
   width: 100%;
-  height: 99%;
+  height: 100%;
   top: 0px;
   left: 0px;
   position: absolute;
   opacity: 0.45;
   background-color: #0f0101;
+  z-index: 10;
 }
 .slider-img {
-  position: absolute;
+  /*position: absolute;*/
   /*position: relative;*/
   width: 100%;
-  /*height: 100%;*/
+  height: 600px;
+  margin: 0 auto;
+  object-fit: cover;
 }
 .slider-button:hover {
 opacity: 1;
 }
+/*.ptext {
+  width: 1110px;
+height: 115px;
+}*/
+/*.bgr {
+  content: "";
+  background-image: url(https://i.ibb.co/wRN39kg/main-img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1600px;
+  height: 600px;
+}*/
 
 .slider {
   position: relative;
-  width: 1600px;
+  width: 100%;
   height: 600px;
   margin-bottom: 102px;
+  margin: 0 auto;
 }
 
 .main-header {
@@ -334,8 +356,9 @@ h1 {
   color: #4ec6ab;
 }
 
-.wrapper {
-  width: 1600px;
+.container {
+  padding-top: 102px;
+  width: 1170px;
   margin: 0 auto;
 }
 
