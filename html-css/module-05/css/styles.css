@@ -255,7 +255,7 @@ h2::after {
   transform: translateX(-50%);
   top: 200px;
   z-index: 20;
-  width: 780px;
+  width: 560px;
 }
 
 .slider::before {
