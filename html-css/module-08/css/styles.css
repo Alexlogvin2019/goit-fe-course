@@ -1,0 +1,336 @@
+.partner-button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto 0px;
+}
+.partner-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 78, 80);
+}
+.partner-icon.man2::before {
+  background-image: url(../img/ma2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffa507;
+}
+.partner-icon.man3::before {
+  background-image: url(../img/ma3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #1cd7ad;
+}
+.partner-icon.man4::before {
+  background-image: url(../img/ma4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #4e73db;
+}
+.partner-icon.hunter::before {
+  background-image: url(../img/tv.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.partner-icon::before {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  right: 0;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+  width: 37px;
+  height: 37px;
+  z-index: 10;
+}
+.partner-icon {
+  position: relative;
+  width: 122px;
+  margin: 0 auto;
+}
+.partner-icon img {
+  border-radius: 50%;
+  position: relative;
+}
+.partner-name {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+}
+.partner-text {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(102, 102, 102);
+  text-align: center;
+  margin-bottom: 28px;
+}
+.partner-li {
+  margin: 0 auto;
+  list-style: none;
+  width: 220px;
+}
+.partner-ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.partner-h2 {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.signup {
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(26, 25, 21, 0);
+  width: 94px;
+  height: 40px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.login {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
+  line-height: 44px;
+}
+.over {
+  background-color: rgba(26, 25, 21, 0.2);
+  width: 100%;
+  height: 100%;
+}
+.holyday-a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto 0px;
+}
+.holyday-a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 78, 80);
+}
+.holyday-p {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 218px;
+  margin: 20px auto 0px;
+}
+.holyday-h2 {
+  width: 100%;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+.holyday-name {
+  position: absolute;
+  width: 100%;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.logo {
+  position: absolute;
+  top: 165px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.block-login {
+  width: 164px;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bgr-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/main-img-mob.jpg);
+  background-position: center;
+  height: 542px;
+}
+.section-holyday {
+  position: relative;
+}
+.container {
+  width: 320px;
+  padding: 10;
+  margin: auto;
+}
+
+/*десктопы*/
+@media (min-width: 1201px) {
+  .container {
+    width: 942px;
+  }
+  .bgr-img {
+    background-image: url(../img/main-img.jpg);
+    height: 700px;
+  }
+  .logo {
+    top: 50px;
+    left: 0px;
+    transform: translateX(0%);
+  }
+  .block-login {
+    top: 38px;
+    transform: translateX(0%);
+    right: 0px;
+    left: unset;
+  }
+  .holyday-h2 {
+    font-size: 52px;
+  }
+  .holyday-p {
+    font-size: 24px;
+    width: 404px;
+    margin-top: 40px;
+  }
+  .holyday-a {
+    margin-top: 36px;
+  }
+  .partner-h2 {
+    margin-top: 74px;
+    margin-bottom: 0;
+  }
+  .partner-ul {
+    align-items: unset;
+    margin-top: 33px;
+    width: 100%;
+    height: 100%;
+  }
+  .partner-button {
+    margin-top: 12px;
+  }
+ .order-li-1{
+order: 1;
+ } 
+ .order-li-2{
+  order: 2;
+   } 
+}
+
+/* планшеты до десктопов*/
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    width: 768px;
+  }
+  .bgr-img {
+    background-image: url(../img/main-img-tabl.jpg);
+    height: 700px;
+  }
+  .logo {
+    top: 50px;
+    left: 24px;
+    transform: translateX(0%);
+  }
+  .block-login {
+    top: 38px;
+    transform: translateX(0%);
+    right: 50px;
+    left: unset;
+  }
+  .holyday-h2 {
+    font-size: 52px;
+  }
+  .holyday-p {
+    font-size: 24px;
+    width: 404px;
+    margin-top: 40px;
+  }
+  .holyday-a {
+    margin-top: 36px;
+  }
+  .partner-h2 {
+    margin-top: 74px;
+    margin-bottom: 0;
+  }
+  .partner-ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: unset;
+    margin-top: 33px;
+    width: 464px;
+    height: 510px;
+  }
+  .partner-button {
+    margin-top: 12px;
+  }
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+/** {
+  outline: 1px solid red;
+}
+*/
