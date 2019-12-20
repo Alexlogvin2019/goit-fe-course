@@ -76,7 +76,7 @@ h2::after {
 .hearth {
   position: absolute;
   /*content: "";*/
-  background-image: url(/img/heart.png);
+  background-image: url(../img/heart.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: unset;
@@ -90,7 +90,7 @@ h2::after {
 .to {
   position: absolute;
   /*content: "";*/
-  background-image: url(/img/to.png);
+  background-image: url(../img/to.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: unset;
@@ -104,7 +104,7 @@ h2::after {
 .clock {
   position: absolute;
   /*content: "";*/
-  background-image: url(/img/clock.png);
+  background-image: url(../img/clock.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: unset;
@@ -135,7 +135,7 @@ h2::after {
   padding-right: 16px;
   line-height: 45px;
   color: #e3e3e3;
-  background-image: url(/img/backet.png);
+  background-image: url(../img/backet.png);
   background-repeat: no-repeat;
   background-position: 10px 10px;
 
