@@ -191,7 +191,7 @@ footer {
   text-align: center;
   margin: 0px auto 95px;
   width: 941px;
-  height: 39px;
+  max-height: 40px;
 }
 .team-section {
   padding-bottom: 90px;
@@ -342,8 +342,8 @@ footer {
 .team-section-h2 {
   margin: 0px;
   position: relative;
-  height: 133px;
-  padding-bottom: 85px;
+  /*height: 133px;*/
+  padding-bottom: 155px;
 }
 .amazing-section-h2-main {
   /*margin: 0px;*/
@@ -386,7 +386,7 @@ footer {
   position: relative;
   height: 133px;
   margin: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 h1 {
   display: none;
@@ -432,9 +432,9 @@ h1 {
 }
 .menu-li::after {
   position: absolute;
-  bottom: -40px;
+  bottom: -12px;
   background-color: #f38181;
-  width: 54px;
+  width: 100%;
   height: 3px;
   content: "";
   display: block;
