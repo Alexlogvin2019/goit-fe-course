@@ -47,11 +47,6 @@ h2::after {
   right: 10px;
   bottom: 10px;
   background-color: rgba(115, 115, 115, 0.65);
-  /*width: calc (100%-20px);
-  height: calc (100%-20px);
-  /*padding: 10px;*/
-  /*width: 100%;
-  height: 100%;*/
   z-index: 100;
   opacity: 0;
 }
@@ -66,20 +61,7 @@ h2::after {
   margin: 0px;
   width: 170px;
 }
-/*.big-icon {
-  position: relative;
-  border-width: 1px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  background-color: rgb(50, 50, 50);
-  width: 168px;
-  height: 48px;
-  margin-top: 10px;
-
-}*/
-.hearth {
-  position: absolute;
-  background-image: url(../img/heart.png);
+.button-all {
   background-repeat: no-repeat;
   background-position: center;
   background-color: unset;
@@ -88,30 +70,21 @@ h2::after {
   border-width: 0px;
   border-color: unset;
   line-height: 48px;
+}
+.hearth {
+  /*position: absolute;*/
+  background-image: url(../img/heart.png);
+  
 }
 .to {
-  position: absolute;
+  /*position: absolute;*/
   background-image: url(../img/to.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: unset;
-  width: 48px;
-  height: 48px;
-  border-width: 0px;
-  border-color: unset;
-  line-height: 48px;
+  
 }
 .clock {
-  position: absolute;
+  /*position: absolute;*/
   background-image: url(../img/clock.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: unset;
-  width: 48px;
-  height: 48px;
-  border-width: 0px;
-  border-color: unset;
-  line-height: 48px;
+  
 }
 .big-icon button:hover {
   background-color: #1abc9c;
@@ -136,39 +109,17 @@ h2::after {
   background-repeat: no-repeat;
   background-position: 10px 10px;
 }
-/*.big-icon img {
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  
-}*/
-/*.big-icon p {
-  /*position: absolute;*/
-/*right: 16px;
-  font-family: "Open sans", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 16px;
-  text-align: right;
-  padding-right: 16px;
-  line-height: 48px;
-  color: #e3e3e3;
-  margin: 0px;
-}*/
-/*.big-icon a {
-  text-decoration: none;
-}*/
+
 .small-icon {
   position: relative;
   display: inline-block;
   margin-right: 10px;
-  width: 48px;
-  height: 48px;
+  /*width: 48px;
+  height: 48px;*/
   border-width: 1px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
-  line-height: 48px;
+  /*line-height: 48px;*/
 
   /*font-size: 0px;*/
 }
@@ -200,14 +151,18 @@ h2::after {
   padding-top: 10px;
 }
 
+
+
 .nc-item-name {
   float: left;
   margin: 0px;
+  /*width: 200px;
+  height: 39px;*/
   /*width: 100%;
   height: 100%;*/
   /*background-color: #323232;*/
-  padding-bottom: 10px;
-  padding-top: 10px;
+  /*padding-bottom: 10px;
+  padding-top: 10px;*/
 }
 
 .nc-div {
@@ -215,6 +170,8 @@ h2::after {
   /*width: 255px;
   height: 42px;*/
   margin: 0px;
+  background-color: #737373;
+
 }
 .nc-div a {
   width: 100%;
@@ -223,9 +180,10 @@ h2::after {
   text-transform: uppercase;
   padding-left: 14px;
   font-size: 18px;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   text-decoration: none;
-  font-weight: 42px;
+  line-height: 39px;
+  font-weight: 700;
 }
 .sell-img {
   position: relative;
@@ -238,11 +196,13 @@ h2::after {
 .nc-product-item:hover .sell-img-icons {
   opacity: 1;
 }
+.nc-product-item:hover .nc-div {
+  background-color: rgba(26, 188, 156, 1);
+}
 .nc-product-item {
   display: inline-block;
   width: 255px;
   position: relative;
-  background-color: rgba(50, 50, 50, 1);
   margin-right: 30px;
   margin-bottom: 30px;
   overflow: hidden;
@@ -287,7 +247,8 @@ h2::after {
 }
 .slider-text {
   margin: 0px;
-  padding-top: 20px;
+  padding-left: 130px;
+  margin-top: 22px;
   font-size: 24px;
   font-weight: 200;
   font-family: "Roboto";
@@ -311,7 +272,7 @@ h2::after {
   z-index: 20;
   width: 100%;
 }
-.slider-name p {
+.slider-p {
   margin: 0;
   padding: 0;
   padding-left: 130px;
@@ -412,9 +373,13 @@ h1 {
 .section1 {
   padding-top: 102px;
   background-color: #e9f0fd;
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
 }
 .container {
-  width: 1170px;
+  width: 1110px;
   margin: 0 auto;
 }
 
