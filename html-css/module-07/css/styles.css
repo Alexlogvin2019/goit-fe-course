@@ -1,13 +1,67 @@
-input[type='email']:invalid {
+@font-face {
+  font-family: "Wisdom";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/Wisdom\ Script\ AI.woff2") format("woff2"),
+    
+      url("../fonts/Wisdom\ Script\ AI.woff") format("woff"); 
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
+    
+      url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Montserrat Black"), local("Montserrat-Black"),
+    url("../fonts/montserrat-v14-latin-900.woff2") format("woff2"),
+     url("../fonts/montserrat-v14-latin-900.woff")
+      format("woff"); 
+}
+@font-face {
+  font-family: "Ptserif";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/PTSerif-Italic.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/Roboto-Regular.woff") format("woff"); 
+}
+
+
+textarea:focus:invalid {
   outline: 1px solid red;
 }
-input[type='email']:valid {
+textarea:focus:valid {
   outline: 1px solid green;
 }
-input[type='text']:invalid {
+
+
+input[type='email']:focus:invalid {
   outline: 1px solid red;
 }
-input[type='text']:valid {
+input[type='email']:focus:valid {
+  outline: 1px solid green;
+}
+input[type='text']:focus:invalid {
+  outline: 1px solid red;
+}
+input[type='text']:focus:valid {
   outline: 1px solid green;
 }
 textarea {
@@ -226,50 +280,7 @@ h1 {
   padding: 54px 0px 128px;
   position: relative;
 }
-@font-face {
-  font-family: "Wisdom";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("../fonts/Wisdom\ Script\ AI.woff2") format("woff2"),
-    
-      url("../fonts/Wisdom\ Script\ AI.woff") format("woff"); 
-}
 
-
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
-    
-      url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); 
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 900;
-  src: local("Montserrat Black"), local("Montserrat-Black"),
-    url("../fonts/montserrat-v14-latin-900.woff2") format("woff2"),
-     url("../fonts/montserrat-v14-latin-900.woff")
-      format("woff"); 
-}
-@font-face {
-  font-family: "Ptserif";
-  font-style: italic;
-  font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("../fonts/PTSerif-Italic.woff") format("woff"); 
-}
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("../fonts/Roboto-Regular.woff") format("woff"); 
-}
 .clearfix::after {
   display: table;
   content: "";
