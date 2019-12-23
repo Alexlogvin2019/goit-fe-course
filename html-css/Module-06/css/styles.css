@@ -305,6 +305,7 @@ footer {
 .team-section-h2-main {
   margin: 0px;
   position: absolute;
+  font-style: normal;
   left: 50%;
   transform: translateX(-50%);
   top: 53px;
@@ -347,6 +348,7 @@ footer {
 .amazing-section-h2-main {
   /*margin: 0px;*/
   position: absolute;
+  font-style: normal;
   left: 50%;
   top: 53px;
   transform: translateX(-50%);
@@ -407,7 +409,7 @@ h1 {
   min-width: 490px;
   padding: 0px;
   margin: 0px;
-  margin-left: auto;
+  /*margin-left: auto;*/
 }
 .menu-li {
   position: relative;
@@ -441,6 +443,7 @@ h1 {
 .header-menu {
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
   padding-bottom: 132px;
   padding-top: 30px;
 }
