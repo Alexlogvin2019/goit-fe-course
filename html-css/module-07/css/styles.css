@@ -39,8 +39,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("../fonts/Roboto-Regular.woff") format("woff"); 
+  src: local("roboto-Regular"), local("roboto-Regular"),
+    url("../fonts/RobotoSlab-Regular.woff") format("woff"); 
 }
 
 
@@ -70,28 +70,29 @@ textarea {
   color: #bbbbbb;
   font-weight: 900;
   text-transform: uppercase;
-  /*font-weight: 55px;*/
-  height: 216px;
   margin-bottom: 30px;
-  width: 405px;
+  width: 100%;
   resize: none;
   padding: 20px;
+  border-radius: 5px;
 }
-form div {
-  height: 252px;
+.div-label {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  border-radius: 5px;
+}
+
+.form-div {
+  display: flex;
 }
 input {
   font-size: 14px;
   font-family: "Montserrat";
-  color: #bbbbbb;
+  /*color: #bbbbbb;*/
   font-weight: 900;
   text-transform: uppercase;
   border-style: solid;
   border-width: 1px;
-  /*border-color: rgb(204, 204, 204);*/
   border-radius: 2px;
   background-color: rgb(255, 255, 255);
   width: 435px;
@@ -104,6 +105,7 @@ input::placeholder {
 
 input[type="submit"] {
   font-size: 18px;
+  line-height: 66px;
   border-radius: 3px;
   background-color: rgb(254, 209, 54);
   width: 240px;
@@ -142,7 +144,6 @@ label {
 footer {
   background-image: url(../img/Map_Image_png.png);
   background-color: #222222;
-  height: 675px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -150,12 +151,6 @@ footer {
   padding: 0px;
   margin: auto;
   width: 940px;
-}
-.footer-wrapper-main {
-  /*padding: 0px;
-  margin: auto;
-  width: 940px;*/
-  margin-top: 125px;
 }
 
 .icon {
@@ -166,6 +161,7 @@ footer {
   background-color: rgb(255, 255, 255);
   width: 72px;
   height: 72px;
+  font-size: 0;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -234,6 +230,9 @@ footer {
   text-align: center;
   margin: 0;
 }
+.services {
+  padding-bottom: 125px;
+}
 h1 {
   display: none;
 }
@@ -270,8 +269,6 @@ h1 {
     font-size: 26px;
     font-family: "Wisdom";
     color: #fed136;
-
-  
 }
 
 .header-menu {
@@ -286,10 +283,7 @@ h1 {
   content: "";
   clear: both;
 }
-
-/*font-family: 'Droid Serif', Georgia, Times, serif;*/
-.wrapper {
-  padding: 0px;
+.container {
   margin: auto;
   width: 940px;
 }
