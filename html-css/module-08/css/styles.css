@@ -5,7 +5,7 @@
   border-radius: 20px;
   background-color: rgb(255, 78, 80);
   width: 280px;
-  height: 40px;
+  /*height: 40px;*/
   font-size: 14px;
   font-family: "Montserrat";
   line-height: 40px;
@@ -273,7 +273,7 @@ order: 1;
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .container {
-    width: 768px;
+    width: 550px;
   }
   .bgr-img {
     background-image: url(../img/main-img-tabl.jpg);
@@ -306,16 +306,24 @@ order: 1;
     margin-bottom: 0;
   }
   .partner-ul {
-    flex-direction: column;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: unset;
     margin-top: 33px;
-    width: 464px;
-    height: 510px;
+    min-width: 464px;
+    /*height: 510px;*/
   }
   .partner-button {
     margin-top: 12px;
   }
+  .order-li-1{
+    order: 1;
+     } 
+     .order-li-2{
+      order: 2;
+       } 
 }
 
 .clearfix::after {
@@ -333,7 +341,6 @@ html {
   padding: 0px;
 }
 
-/** {
+* {
   outline: 1px solid red;
 }
-*/
