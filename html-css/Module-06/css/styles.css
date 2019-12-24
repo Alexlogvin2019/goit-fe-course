@@ -21,12 +21,10 @@ input::placeholder {
   color: #808080;
 }
 button {
-  display: flex;
   text-align: center;
-  justify-items: center;
   background-color: rgb(149, 225, 211);
+  border-color: unset;
   width: 150px;
-  /*height: 43px;*/
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
@@ -34,6 +32,7 @@ button {
   text-transform: uppercase;
   line-height: 43px;
   text-decoration: none;
+  border-width: 0px;
 }
 footer {
   display: flex;
@@ -41,7 +40,7 @@ footer {
   height: 64px;
   display: flex;
   align-items: center;
-  border-top: 2px;
+  border-top: 1px;
   border-top-style: solid;
   border-top-color: rgb(229, 229, 229);
   }
@@ -104,11 +103,15 @@ footer {
   height: 58px;
   display: flex;
   justify-content: center;
-  border: 1px;
+  border-right: 1px solid;
   border-color: #f9bd87;
   align-items: center;
   opacity: 1;
   transition-property: opacity;
+}
+.icon a:nth-child(4) {
+  border-right: unset;
+
 }
 .facebook:hover {
   background-color: #95e1d3;
@@ -125,10 +128,10 @@ footer {
 .icons {
   position: absolute;
   width: 380px;
-  height: 470px;
-  background: linear-gradient(to bottom, rgba(238, 137, 138, 0.9), rgba(239, 215, 136, 0.9));
+  background: linear-gradient(to bottom, rgba(238, 137, 138, 0.7), rgba(239, 215, 136, 0.7));
   display: flex;
   align-items: center;
+  height: 100%;
   top: 0%;
   z-index: 100;
   opacity: 0;
