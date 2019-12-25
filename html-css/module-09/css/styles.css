@@ -1,9 +1,10 @@
 .partner-button {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 78, 80);
   display: block;
   border-radius: 20px;
-  background-color: rgb(255, 78, 80);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 78, 80);
   width: 280px;
   font-size: 14px;
   font-family: "Montserrat";
@@ -13,8 +14,8 @@
   margin: 20px auto 0px;
 }
 .partner-button:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(255, 78, 80);
+  background-color: rgb(255, 78, 80);
+  color: rgb(255, 255, 255);
 }
 .partner-icon.man2::before {
   background-image: url(../img/ma2.png);
@@ -78,9 +79,7 @@
   margin: 0 auto;
 }
 .partner-li {
-  margin: 0 auto;
   list-style: none;
-  width: 220px;
   margin-bottom: 30px;
 
 }
@@ -130,7 +129,7 @@
   line-height: 44px;
 }
 .over {
-  background-color: rgba(26, 25, 21, 0.2);
+  /*background-color: rgba(26, 25, 21, 0.2);*/
   width: 100%;
   height: 100%;
 }
@@ -197,7 +196,7 @@
 .bgr-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/main-img-mob.jpg);
+  background-image: url(../img/main-img-mob1.jpg);
   background-position: center;
   height: 542px;
 }
@@ -215,7 +214,7 @@
 @media (min-width: 1201px) {
 
   .bgr-img {
-    background-image: url(../img/main-img.jpg);
+    background-image: url(../img/main-img1.jpg);
     height: 700px;
   }
   .logo {
@@ -271,7 +270,7 @@
 @media (min-width: 768px) and (max-width: 1200px) {
 
   .bgr-img {
-    background-image: url(../img/main-img-tabl.jpg);
+    background-image: url(../img/main-img-tabl1.jpg);
     height: 700px;
   }
   .section-partner {
@@ -338,7 +337,9 @@ html {
   margin: 0px;
   padding: 0px;
 }
-
+*{
+  box-sizing: border-box;
+}
 /** {
   outline: 1px solid red;
 }
