@@ -75,12 +75,14 @@
   font-family: "Roboto";
   color: rgb(102, 102, 102);
   text-align: center;
-  margin-bottom: 28px;
+  margin: 0 auto;
 }
 .partner-li {
   margin: 0 auto;
   list-style: none;
   width: 220px;
+  margin-bottom: 30px;
+
 }
 .partner-ul {
   display: flex;
@@ -95,11 +97,9 @@
   color: rgb(51, 51, 51);
   font-weight: bold;
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 20px;
 }
 .section-partner {
-  padding-bottom: 20px;
+  padding-bottom: 56px;
 }
 .signup {
   display: inline-block;
@@ -130,7 +130,6 @@
   line-height: 44px;
 }
 .over {
-  /*position: absolute;*/
   background-color: rgba(26, 25, 21, 0.2);
   width: 100%;
   height: 100%;
@@ -174,11 +173,11 @@
 }
 .holyday-name {
   margin: 0 auto;
-  padding-top: 40px;
 }
+
 .ll {
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 .logo {
@@ -188,13 +187,12 @@
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 }
 .block-login {
   width: 164px;
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
   padding-bottom: 120px;
-
 }
 .bgr-img {
   background-size: cover;
@@ -203,34 +201,37 @@
   background-position: center;
   height: 542px;
 }
+.section-partner {
+  margin-top: 72px;
+}
 .section-holyday {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
 }
-/*.container {
-  width: 320px;
-  padding: 10;
-  margin: auto;
-}*/
+
 
 /*десктопы*/
-@media (min-width: 992px) {
-  /*.container {
-    width: 942px;
-  }*/
+@media (min-width: 1201px) {
+
   .bgr-img {
     background-image: url(../img/main-img.jpg);
     height: 700px;
   }
   .logo {
-    top: 50px;
-    left: 24px;
-    transform: translateX(0%);
+    text-align: left;
   }
-.block-login {
-  padding-bottom: 0;
-}
+  .partner-button {
+    width: 192px;
+  }
+  .block-login {
+    padding-bottom: 0;
+    text-align: right;
+  }
+  .section-partner {
+    margin-top: 72px;
+    padding-bottom: 72px;
+  }
   .holyday-h2 {
     font-size: 52px;
   }
@@ -240,31 +241,20 @@
     margin-top: 40px;
   }
   .holyday-name {
-    padding-top: 175px;
+    padding-top: 125px;
   }
   .holyday-a {
     margin-top: 36px;
   }
   .partner-h2 {
-    margin-top: 74px;
-    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 42px;
   }
   .ll {
     width: 100%;
     padding-top: 50px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
   }
-  .partner-ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: unset;
-    margin-top: 33px;
-    min-width: 464px;
-  }
+
   .partner-button {
     margin-top: 12px;
   }
@@ -278,24 +268,29 @@
 
 /* планшеты до десктопов*/
 
-@media (min-width: 768px) and (max-width: 992px) {
-  /*.container {
-    width: 550px;
-  }*/
+@media (min-width: 768px) and (max-width: 1200px) {
+
   .bgr-img {
     background-image: url(../img/main-img-tabl.jpg);
     height: 700px;
   }
+  .section-partner {
+    margin-top: 76px;
+    padding-bottom: 40px;
+  }
   .logo {
-    top: 50px;
-    left: 24px;
-    transform: translateX(0%);
+
+    text-align: left;
+  }
+  .partner-button {
+    width: 192px;
   }
   .block-login {
-padding-bottom: 0;
+    padding-bottom: 0;
+    text-align: right;
   }
   .holyday-h2 {
-    font-size: 52px;
+    font-size: 49px;
   }
   .holyday-p {
     font-size: 24px;
@@ -306,25 +301,18 @@ padding-bottom: 0;
     margin-top: 36px;
   }
   .partner-h2 {
-    margin-top: 74px;
-    margin-bottom: 0;
+    margin-bottom: 36px;
+    margin-top: 0;
   }
   .ll {
     width: 100%;
     padding-top: 50px;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
   }
-  .partner-ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: unset;
-    margin-top: 33px;
-    min-width: 464px;
+  .holyday-name {
+    padding-top: 100px;
   }
+
   .partner-button {
     margin-top: 12px;
   }
@@ -351,7 +339,6 @@ html {
   padding: 0px;
 }
 
-/** {
+* {
   outline: 1px solid red;
 }
-*/
