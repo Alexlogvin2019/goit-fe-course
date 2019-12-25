@@ -5,13 +5,12 @@
   border-radius: 20px;
   background-color: rgb(255, 78, 80);
   width: 280px;
-  /*height: 40px;*/
   font-size: 14px;
   font-family: "Montserrat";
   line-height: 40px;
   font-weight: bold;
   text-align: center;
-  margin: 20px auto 0px;
+  margin: 0px auto 0px;
 }
 .partner-button:hover {
   background-color: rgb(255, 255, 255);
@@ -76,10 +75,10 @@
   font-family: "Roboto";
   color: rgb(102, 102, 102);
   text-align: center;
-  margin-bottom: 28px;
+  margin: 0 auto;
 }
 .partner-li {
-  margin: 0 auto;
+  margin: 0 auto 30px;
   list-style: none;
   width: 220px;
 }
@@ -96,11 +95,11 @@
   color: rgb(51, 51, 51);
   font-weight: bold;
   text-align: center;
-  margin-top: 70px;
   margin-bottom: 20px;
 }
 .section-partner {
-  padding-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 57px;
 }
 .signup {
   display: inline-block;
@@ -131,7 +130,6 @@
   line-height: 44px;
 }
 .over {
-  /*position: absolute;*/
   background-color: rgba(26, 25, 21, 0.2);
   width: 100%;
   height: 100%;
@@ -181,8 +179,7 @@
 
 .ll {
   margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
   
 }
 .logo {
@@ -197,7 +194,7 @@
   width: 164px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 120px;
+  padding-bottom: 115px;
 
 }
 .bgr-img {
@@ -244,14 +241,13 @@
     margin-top: 40px;
   }
   .holyday-name {
-    padding-top: 175px;
+    padding-top: 170px;
   }
   .holyday-a {
     margin-top: 36px;
   }
   .partner-h2 {
-    margin-top: 74px;
-    margin-bottom: 0;
+    margin: 0;
   }
   .ll {
     width: 100%;
@@ -286,6 +282,12 @@
   .container {
     width: 550px;
   }
+  .section-holyday {
+    width: 660px;
+  }
+  .section-partner {
+    padding-bottom: 40px;
+  }
   .bgr-img {
     background-image: url(../img/main-img-tabl.jpg);
     height: 700px;
@@ -299,7 +301,7 @@
 padding-bottom: 0;
   }
   .holyday-h2 {
-    font-size: 52px;
+    font-size: 49px;
   }
   .holyday-p {
     font-size: 24px;
@@ -307,10 +309,12 @@ padding-bottom: 0;
     margin-top: 40px;
   }
   .holyday-a {
-    margin-top: 36px;
+    margin-top: 40px;
+  }
+  .holyday-name {
+    padding-top: 165px;
   }
   .partner-h2 {
-    margin-top: 74px;
     margin-bottom: 0;
   }
   .ll {
@@ -329,9 +333,7 @@ padding-bottom: 0;
     margin-top: 33px;
     min-width: 464px;
   }
-  .partner-button {
-    margin-top: 12px;
-  }
+ 
   .order-li-1 {
     order: 1;
   }
@@ -355,6 +357,7 @@ html {
   padding: 0px;
 }
 
-* {
+/** {
   outline: 1px solid red;
 }
+*/
