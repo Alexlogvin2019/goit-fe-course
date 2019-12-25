@@ -1,9 +1,12 @@
 .partner-button {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 78, 80);
   display: block;
   border-radius: 20px;
-  background-color: rgb(255, 78, 80);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 78, 80);
+  border-style: solid;
+  border-width: 2px;
   width: 280px;
   font-size: 14px;
   font-family: "Montserrat";
@@ -13,8 +16,8 @@
   margin: 0px auto 0px;
 }
 .partner-button:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(255, 78, 80);
+  background-color: rgb(255, 78, 80);
+  color: rgb(255, 255, 255);
 }
 .partner-icon.man2::before {
   background-image: url(../img/ma2.png);
@@ -56,6 +59,7 @@
 .partner-icon {
   position: relative;
   width: 122px;
+  height: 122px;
   margin: 0 auto;
 }
 .partner-icon img {
@@ -180,6 +184,8 @@
 .ll {
   margin: 0 auto;
   padding-top: 20px;
+  text-align: center;
+
   
 }
 .logo {
@@ -189,48 +195,52 @@
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  margin: 0 auto;
 }
 .block-login {
   width: 164px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 115px;
-
+  margin: 0 auto;
 }
 .bgr-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/main-img-mob.jpg);
+  background-image: url(../img/main-img-mob1.jpg);
   background-position: center;
   height: 542px;
 }
 .section-holyday {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
   align-items: stretch;
+
 }
 .container {
   width: 320px;
-  padding: 10;
+  padding: 10px;
   margin: auto;
 }
 
 /*десктопы*/
-@media (min-width: 1201px) {
+@media (min-width: 942px) {
   .container {
     width: 942px;
   }
   .bgr-img {
-    background-image: url(../img/main-img.jpg);
+    background-image: url(../img/main-img1.jpg);
     height: 700px;
   }
   .logo {
     top: 50px;
     left: 24px;
     transform: translateX(0%);
+    margin: 0;
   }
 .block-login {
   padding-bottom: 0;
+  margin: 0;
 }
   .holyday-h2 {
     font-size: 52px;
@@ -278,7 +288,7 @@
 
 /* планшеты до десктопов*/
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 942px) {
   .container {
     width: 550px;
   }
@@ -289,16 +299,20 @@
     padding-bottom: 40px;
   }
   .bgr-img {
-    background-image: url(../img/main-img-tabl.jpg);
+    background-image: url(../img/main-img-tabl1.jpg);
     height: 700px;
   }
   .logo {
     top: 50px;
     left: 24px;
     transform: translateX(0%);
+    margin: 0;
+    padding-left: 35px;
   }
   .block-login {
 padding-bottom: 0;
+margin: 0;
+padding-right: 35px;
   }
   .holyday-h2 {
     font-size: 49px;
@@ -357,7 +371,6 @@ html {
   padding: 0px;
 }
 
-/** {
+* {
   outline: 1px solid red;
 }
-*/
