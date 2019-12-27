@@ -1,0 +1,88 @@
+
+.main-text {
+  margin: 0 auto;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(252, 227, 138, 0.85)),
+      to(rgba(243, 129, 129, 0.85))
+    ),
+    url(/img/eagle-min.jpg);
+  background-image: -o-linear-gradient(
+      left,
+      rgba(252, 227, 138, 0.85) 0%,
+      rgba(243, 129, 129, 0.85) 100%
+    ),
+    url(/images/eagle-min.jpg);
+  background-image: linear-gradient(
+      90deg,
+      rgba(252, 227, 138, 0.85) 0%,
+      rgba(243, 129, 129, 0.85) 100%
+    ),
+    url(../images/eagle-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 1000px;
+  &__h2 {
+    font-size: 72px;
+    text-align: center;
+    font-family: "Kaushan Script";
+    color: rgb(255, 255, 255);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 840px;
+    padding: 0;
+  }
+  &__span {
+    font-size: 150px;
+    font-family: $main-font, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.933;
+    text-align: center;
+  }
+  &__a {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+text-decoration: none;
+    width: 164px;
+    height: 44px;
+line-height: 44px;
+    font-size: 14px;
+    font-family: $main-font;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+  .box {
+    background: url('../images/eagle@2x-min.jpg') no-repeat;
+  }
+}
+
