@@ -1,0 +1,101 @@
+
+h1 {
+    display: none;
+  }
+  .logo {
+    font-size: 30px;
+    font-family: $main-font, sans-serif;
+    font-weight: 900;
+    line-height: 25px;
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+  .logo 
+  .header-menu
+  .header-menu
+  
+  .header-menu
+  .header-menu
+  .header-menu
+  .header-menu__menu-li 
+  .header-menu__menu-li
+  .header-menu
+  .header-menu
+  .header-menu {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 132px;
+    padding-top: 30px;
+    &__menu-li::after {
+      position: absolute;
+      bottom: -12px;
+      background-color: #fce38a;
+      width: 100%;
+      height: 3px;
+      content: "";
+      display: block;
+      opacity: 0;
+    }
+    &__style-icon {
+      fill: #ffffff;
+      width: 100%;
+      height: 18px;
+      background-color: unset;
+    }
+    &__menu-li {
+      position: relative;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: $main-font, sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      list-style-type: none;
+      :hover::after {
+        opacity: 1;
+      }
+    }
+    &__style-icon:hover{
+      fill: #fce38a;
+      }
+    &__button {
+      padding: 0;
+      border: none;
+      width: 17px;
+      height: 18px;
+    background-color: transparent;
+    }
+    &__menu-ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      min-width: 620px;
+      padding: 0px;
+      margin: 0px;
+    }
+    &__menu-li a {
+      text-decoration: none;
+      color: #ffffff;
+    :hover {
+      color: #fce38a;
+    }
+  }
+
+  }
